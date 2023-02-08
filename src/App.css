@@ -1,38 +1,219 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+    background: #FFF5E4;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background:  rgb(6, 6, 40);
+    color: #FF9494;
+    font-family:GT-Super;
+}
+.par{
+    color: #FFE3E1;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+    background: #FFE3E1;
+    flex-wrap: wrap;
+}
+.link{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    font-family:GT-Super;
+
+}
+.link:hover{
+color: #FF9494;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orderNow{
+    padding: 10px;
+    font-family:GT-Super;
+    font-size: 22px;
+    background: rgb(19 19 130);
+    border: none;
+    color:#F9F9F9;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.orderNow:hover{
+    background: #FFE3E1;
+    color:rgb(19 19 130);
+    border: 1px solid rgb(19 19 130);
+    padding: 9px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    height: 830px;
+    color: rgb(19 19 130);
+    font-family:GT-Super;
+    border: #FF9494 1px solid;
+    border-radius: 5px;
+}
+.btn{
+    background: #FFF5E4;
+    color: #FF9494;
+    padding: 7px;
+    border: none;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family:GT-Super;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid rgb(19 19 130);
+    padding: 6px;
+}
+@font-face {
+    font-family:GT-Super;
+    src: url("./attachment/GT-Super-Display-Light-Trial.otf");
+}
+h1, h2, h3{
+    font-family:GT-Super;
+    color: rgb(12, 12, 86);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:GT-Super;
+    color: rgb(12, 12, 86);
+}
+p{
+    margin: 30px;
+    font-family:GT-Super;
+    color: rgb(12, 12, 86);
+}
+ul{
+    margin: 30px;
+    font-family:GT-Super;
+    color: rgb(12, 12, 86);
+}
+li{
+margin: 10px;
+}
+input, textarea{
+    width: 300px;
+    padding: 7px;
+    font-family:GT-Super;
+    border-radius: 5px;
+    border: rgb(19 19 130) 1px solid;
+    margin: auto;
+    margin-bottom: 7px;
+}
+span{
+    color: red;
+    margin: 5px;
+}
+.cta{
+    width: 100%;
+    padding: 7px;
+    font-family:GT-Super;
+    font-size: 17px;
+    background: rgb(19 19 130);
+    border: none;
+    color:#F9F9F9;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cta:hover{
+    background: #FFE3E1;
+    color:rgb(19 19 130);
+    border: 1px solid rgb(19 19 130);
+    padding: 6px;
+}
+.btn-like{
+    border:none;
+    background: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about{
+    margin: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.family-img{
+display: flex;
+justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-slide{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+.btn-more{
+    background: none;
+    border: 1px solid rgb(19 19 130);
+    color: rgb(19 19 130);
+    font-size: 20px;
+    margin: 10px;
+    font-family:GT-Super;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-more:hover{
+    background: #FFE3E1;
+    color:rgb(19 19 130);
+    border: 1px solid rgb(19 19 130);
+}
+.offer{
+    font-family:GT-Super;
+    font-size: 22px;
+    margin: 20px;
 }
