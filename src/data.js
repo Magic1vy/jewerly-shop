@@ -45,7 +45,8 @@ export const data = [
         name: "Elza",
         searchTerm: "necklaces",
         image: necklacesFive,
-        price: "$ 499"
+        price: "$ 499",
+        
     },
     {
         id:2,

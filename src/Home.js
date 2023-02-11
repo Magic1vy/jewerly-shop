@@ -7,7 +7,7 @@ import Shop from "./Shop";
 
 function Home (){
 
-    const [home, setHome] = useState(dataFirstPage)
+    const [home] = useState(dataFirstPage)
 
     const [showText, setShowText] =useState(false);
 
